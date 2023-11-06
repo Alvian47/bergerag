@@ -1,0 +1,31 @@
+.yellow{
+    color: rgb(224, 248, 12);
+}
+
+.button-yellow{
+    font-weight: bold;
+    color: rgb(224, 248, 12);
+    background-color: rgb(30, 165, 238);
+    border: 3px rgb(224, 248, 12) solid;
+}
+
+.button-yellow:hover{
+    color: rgb(30, 165, 238);
+    background-color: rgb(224, 248, 12);
+}
+
+.button-blue{
+    background-color: rgb(30, 165, 238);
+    font-weight: bold;
+    color: rgb(224, 248, 12);
+    border: 2px rgb(224, 248, 12) solid;
+}
+
+.button-blue:hover{
+    color: rgb(30, 165, 238);
+    background-color: rgb(224, 248, 12);
+}
+
+.background-yellow{
+    background-color: rgb(228, 247, 59);
+}

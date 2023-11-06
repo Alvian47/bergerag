@@ -1,95 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BERGERAK</title>
+    <title>Bergerag</title>
 
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- font awesome 4-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <!-- css -->
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
-
 <body>
-    <div class="container-xl first-page">
-        <header class="container-xl mb-5">
-            <div class="d-flex justify-content-between">
-                <div class="text-white padding-element">
-                    <h6>BERGERAG</h6>
-                    <h6>BASIC LEARNING GESTURE LANGUAGE</h6>
-                </div>
-                <div class="padding-element">
-                    <a class="ms-5"><i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i></a>
-                </div>
-            </div>
-        </header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-info navbar-dark sticky-top p-3">
 
-        <div class="container-xl pb-2">
-            <div class="d-flex text">
-                <div class="padding-element">
-                    <h1 class="font-yellow font-weight-bold">Mata Mendengar</h1>
-                    <h1 class="font-yellow font-weight-bold">Tangan Berbicara</h1>
-                    <h6 class="text-light mt-4"><i>Gerakan dengan makna</i></h6>
-                </div>
+        <div class="container">
+          <a href="#" class="navbar-brand fw-bold">BERGERAG <span class="fw-normal d-none d-sm-block" style="display: block;">BASIC LEARNING GESTURE LANGUAGE</span></a>
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-light fw-bold">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-light">Pelayanan</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-light">Tentang Kami</a>
+              </li>
+            </ul>
+          </div>
+    
+        </div>
+      </nav>
+
+      <!-- title landing -->
+      <section class="bg-info p-5">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between">
                 <div>
-                    <img class="hand-img" src="./img/hand.png" alt="" width="500px" height="400px">
+                    <div>
+                        <h1 class="fw-bold yellow display-3">Mata Mendengar</h1>
+                        <h1 class="fw-bold yellow display-3">Tangan Berbicara</h1>
+
+                        <div class="h5 text-light fst-italic my-4">Gerakan dengan makna</div>
+                    </div>
+                    <a href="#" class="btn button-yellow px-5 py-3 rounded-pill mt-5">Jadwal Mengajar</a>
+                </div>
+                <img src="img/hand.png" alt="" class="img-fluid w-50 d-none d-md-block">
+            </div>
+        </div>
+      </section>
+
+      <!-- info landing -->
+      <section class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/people.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md">
+                    <div>
+                        <h1 class="fw-bold display-5">Rasakan</h1>
+                        <h1 class="fw-bold display-5">Komunikasi</h1>
+                        <h1 class="fw-bold display-5">Tanpa</h1>
+                        <h1 class="fw-bold display-5 yellow">Berbicara</h1>
+                    </div>
+                    <p class="mt-3">Belajar bahasa isyarat sangat penting karena membantu menciptakan inklusi bagi orang dengan gangguan pendengaran, memungkinkan komunikasi yang efektif, serta memperkuat toleransi dan pengertian dalam masyarakat. Dengan memahami bahasa isyarat, kita dapat membuka pintu kesempatan pendidikan dan pekerjaan yang setara bagi semua orang.</p>
+                    <a href="#" class="btn button-blue rounded-pill px-4 py-2">Learn More</a>
                 </div>
             </div>
         </div>
+      </section>
 
-        <div class="container-xl padding-element">
-            <button class="btn button-yellow p-3 rounded-pill" role="button">Jadwal Mengajar</button>
+      <!-- video landing -->
+      <section class="p-5">
+        <div class="container text-center">
+            <h1 class="diplay-5 fw-bold">Video</h1>
+            <div class="ratio ratio-16x9 mt-4">
+                <video src="video/sample.mp4" class="embed-responsive-item" controls></video>
+            </div>
         </div>
+      </section>
 
-    </div>
-
-    <div class="d-flex bg-light align-items-center second-page">
-        <div class="container-xl container-page2">
-            <div class="row">
-                <div class="col-md-6 d-flex align-items-center">
-                    <img class="people" src="./img/people.png" alt="" width="700px" height="500px">
+      <!-- testimoni landing -->
+      <section class="p-5 background-yellow">
+        <div class="container">
+            <h1 class="fw-bold text-center">Testimoni Peserta</h1>
+            <div class="row g-4 mt-3">
+                <div class="col-md">
+                    <div class="card bg-dark text-light p-4">
+                        <div class="card-body text-center">
+                            <div class="h1"><i class="bi bi-person"></i></div>
+                            <p class="card-text text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, consectetur labore? Facilis laborum nam repudiandae perspiciatis facere?</p>
+                        </div>
+                        <div class="fw-bold card-footer">
+                            Person Footer
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="d-flex flex-column">
-                        <div class="p-2 h1-page2">
-                            <h1>Rasakan</h1>
-                            <h1>Komunikasi</h1>
-                            <h1>Tanpa</h1>
-                            <h1 class="font-yellow">Berbicara</h1>
+                <div class="col-md">
+                    <div class="card bg-dark text-light p-4">
+                        <div class="card-body text-center">
+                            <div class="h1"><i class="bi bi-person"></i></div>
+                            <p class="card-text text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, consectetur labore? Facilis laborum nam repudiandae perspiciatis facere?</p>
                         </div>
-                        <div class="p-2">
-                            <p class="pt-4">Write a paragraph that talks about your company here. You can talk about your company's background, history, mission, vision, or philosophy. Anything that will introduce your brand's persona to your clients.</p>
+                        <div class="fw-bold card-footer">
+                            Person Footer
                         </div>
-                        <div class="p-2">
-                            <button class="btn button-blue ps-4 pe-4 pt-2 pb-2 rounded-pill" role="button">Learn More</button>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light p-4">
+                        <div class="card-body text-center">
+                            <div class="h1"><i class="bi bi-person"></i></div>
+                            <p class="card-text text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, consectetur labore? Facilis laborum nam repudiandae perspiciatis facere?</p>
+                        </div>
+                        <div class="fw-bold card-footer">
+                            Person Footer
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    <div class="third-page d-flex bg-light align-items-center">
-        <div class="container-sm">
-            <div class="third-header row">
-                <h2 class="text-center mb-3">Video Tutorial</h2>
-            </div>
-            <div class="third-main row">
-                <video controls>
-                    <source src="./video/sample.mp4">
-                </video>
-            </div>
-        </div>
-    </div>
-    
-    <div class="fourth-page d-flex align-items-center">
-        
-    </div>
+      </section>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
